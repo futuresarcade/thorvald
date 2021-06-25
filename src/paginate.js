@@ -11,7 +11,7 @@ export default function Paginate() {
               className="relative flex items-center justify-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
 
             <Link to="/">
-            <button className="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 hidden md:inline-flex relative items-center  px-4 py-2 text-sm font-medium">1</button></Link>
+            <button className="bg-gray-200 border-gray-300 text-gray-500 hover:bg-gray-50 hidden md:inline-flex relative items-center  px-6 py-3 text-3xl font-bold">1</button></Link>
 
             </li>
 
@@ -19,7 +19,7 @@ export default function Paginate() {
               className="relative flex items-center justify-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
               <Link to ="/1">
 
-              <button className="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 hidden md:inline-flex relative items-center  px-4 py-2  text-sm font-medium">2</button>
+              <button className="bg-gray-200 border-gray-300 text-gray-500 hover:bg-gray-50 hidden md:inline-flex relative items-center  px-6 py-3  text-3xl font-bold">2</button>
             </Link>
             </li>
 
@@ -27,7 +27,7 @@ export default function Paginate() {
               className="relative flex items-center justify-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
               <Link to ="/3">
 
-              <button className="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 hidden md:inline-flex relative items-center  px-4 py-2  text-sm font-medium">3</button>
+              <button className="bg-gray-200 border-gray-300 text-gray-500 hover:bg-gray-50 hidden md:inline-flex relative items-center  px-6 py-3  text-3xl font-bold">3</button>
             </Link>
             </li>
             </ul>
