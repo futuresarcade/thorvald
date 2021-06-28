@@ -21,10 +21,10 @@ function App() {
 
     <Switch>
       <Route exact path="/"><Art /></Route>
-      <Route path="/#/1"><Art2 /></Route>
-      <Route path="/#/2"><Art3 /></Route>
-      <Route path="/#/inkawall1"><InkaWall1 /></Route>
-      <Route path="/#/inkamen1"><Inkamen1 /></Route>
+      <Route path="/1"><Art2 /></Route>
+      <Route path="/2"><Art3 /></Route>
+      <Route path="/inkawall1"><InkaWall1 /></Route>
+      <Route path="/inkamen1"><Inkamen1 /></Route>
 
     </Switch>
     <Paginate />
