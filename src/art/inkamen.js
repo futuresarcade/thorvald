@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Inkamen() {
   return (
 
-    <Link to = "/#/inkamen1">
+    <Link to = "/inkamen1">
     <svg className="painting"
       xmlns="http://www.w3.org/2000/svg"
       width="2760"

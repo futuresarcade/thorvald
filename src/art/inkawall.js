@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function InkaWall() {
   return (
 
-    <Link to="/#/inkawall1">
+    <Link to="/inkawall1">
 
   <svg className="painting inkawall"
 

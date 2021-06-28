@@ -17,7 +17,7 @@ export default function Paginate() {
 
             <li
               className="relative flex items-center justify-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
-              <Link to ="/#/2">
+              <Link to ="/2">
 
               <button className="bg-gray-200 border-gray-300 text-gray-500 hover:bg-gray-50 hidden md:inline-flex relative items-center  px-6 py-3  text-3xl font-bold">2</button>
             </Link>
@@ -25,7 +25,7 @@ export default function Paginate() {
 
             <li
               className="relative flex items-center justify-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
-              <Link to ="/#/3">
+              <Link to ="/3">
 
               <button className="bg-gray-200 border-gray-300 text-gray-500 hover:bg-gray-50 hidden md:inline-flex relative items-center  px-6 py-3  text-3xl font-bold">3</button>
             </Link>
